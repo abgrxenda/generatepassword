@@ -1,0 +1,54 @@
+{
+    "langCode": {
+        "message": "tr",
+        "description": "Language code for English"
+    },
+     "extName": {
+         "message": "ÖTEK Kod Oluşturucu",
+        "description": "The name of the extension."
+     },
+     "labelName": {
+         "message": "ÖTEK Kod Oluşturucu Seçeneği",
+        "description": "The name of the extension."
+     },
+    "menuName": {
+        "message": "Kod oluştur",
+        "description": "The name of the extension."
+    },
+     "extDescription": {
+         "message": "Güvenli bir kod oluşturur",
+        "description": "The description of the extension."
+     },
+    "settingLabel":{
+        "message": "Ayarlar",
+        "description": "Label for te Settings Label."
+    },
+     "passwordLength": {
+         "message": "Kod Uzunluğu:",
+        "description": "Label for password length input."
+     },
+     "includeNumbers": {
+         "message": "Sayıları Dahil Et",
+        "description": "Label for including numbers in the password."
+     },
+     "includeCharacters": {
+         "message": "Özel Karakterleri Ekle",
+        "description": "Label for including special characters in the password."
+     },
+     "includeAlphabet": {
+         "message": "Alfabeyi Ekle",
+        "description": "Label for including Alphabet in the password."
+     },
+     "saveButton": {
+         "message": "Kaydet",
+        "description": "Label for save button."
+     },
+     "copySuccess": {
+         "message": "Kod panoya kopyalandı",
+        "description": "Label for Password copied to clipboard."
+     },
+     "copyFail": {
+         "message": "Kod panoya kopyalanamadı:",
+        "description": "Label for Failed to copy password to clipboard."
+     }
+}

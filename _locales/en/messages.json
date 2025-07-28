@@ -1,0 +1,54 @@
+{
+    "langCode": {
+        "message": "en",
+        "description": "Language code for English"
+    },
+    "extName": {
+        "message": "ÖTEK Code Generator",
+        "description": "The name of the extension."
+    },
+    "labelName": {
+        "message": "ÖTEK Code Generator Option",
+        "description": "The name of the extension."
+    },
+    "menuName": {
+        "message": "Generate Code",
+        "description": "The name of the extension."
+    },
+    "extDescription": {
+        "message": "Generates a secure code",
+        "description": "The description of the extension."
+    },
+    "settingLabel":{
+        "message": "Settings",
+        "description": "Label for te Settings Label."
+    },
+    "codeLength": {
+        "message": "Code Length:",
+        "description": "Label for code length input."
+    },
+    "includeNumbers": {
+        "message": "Include Numbers",
+        "description": "Label for including numbers in the code."
+    },
+    "includeCharacters": {
+        "message": "Include Special Characters",
+        "description": "Label for including special characters in the code."
+    },
+    "includeAlphabet": {
+        "message": "Include Alphabet",
+        "description": "Label for including Alphabet in the code."
+    },
+    "saveButton": {
+        "message": "Save",
+        "description": "Label for save button."
+    },
+    "copySuccess": {
+        "message": "Code copied to clipboard",
+        "description": "Label for Code copied to clipboard."
+    },
+    "copyFail": {
+        "message": "Failed to copy code to clipboard:",
+        "description": "Label for Failed to copy code to clipboard."
+    }
+}

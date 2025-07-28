@@ -1,0 +1,45 @@
+  {
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "version": "1.7.3",
+  "author": "Ömer Kadir",
+  "description": "__MSG_extDescription__",
+  "homepage_url": "https://omertek.com",
+  "default_locale": "en",
+  "content_security_policy": "script-src 'self'; object-src 'none'",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "code-gen@otek.today"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "default_title": "__MSG_extName__",
+    "default_popup": "options.html"
+  },
+  "permissions": [
+    "<all_urls>",
+    "storage",
+    "scripting",
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "options_ui": {
+    "page": "options.html"
+  }
+}

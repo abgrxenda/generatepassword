@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>__MSG_labelName__</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+      <div class="container mt-3">
+        <h1>__MSG_settingLabel__</h1>
+        <form id="optionsForm">
+            <div class="mb-3">
+                <label for="length" class="form-label">__MSG_passwordLength__</label>
+                <input type="number" class="form-control" id="length" name="length">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="numbers" name="numbers">
+                <label class="form-check-label" for="numbers">__MSG_includeNumbers__</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="specialChars" name="specialChars">
+                <label class="form-check-label" for="specialChars">__MSG_includeCharacters__</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="alphabet" name="alphabet">
+                <label class="form-check-label" for="alphabet">__MSG_includeAlphabet__</label>
+            </div>
+            <button type="submit" class="btn btn-primary mb-3" id="saveButton">__MSG_saveButton__</button>
+        </form>
+    </div>
+    <script src="options.js"></script>
+</body>
+</html>
